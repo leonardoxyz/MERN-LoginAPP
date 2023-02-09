@@ -1,0 +1,50 @@
+.glass {
+    border-radius: 16px;
+    box-shadow: 0 4px 30px #4747470b;
+    backdrop-filter: blur(7.1px);
+    border: 1px solid #8D00CE;
+    @apply border-4 shrink-0 h-3/4 w-[30%] rounded-3xl py-20 px-7 min-w-max;
+}
+
+.profile_img{
+    @apply border-4 border-gray-100 w-[135px] rounded-full shadow-lg cursor-pointer;
+    @apply hover:border-gray-200;
+}
+
+.textbox{
+    @apply border-0 px-5 py-4 rounded-xl w-3/4 shadow-sm text-lg;
+    @apply focus:outline-none;
+}
+
+.btn {
+    padding: 17px 40px;
+    border-radius: 16px;
+    border: 0;
+    background-color: rgb(145, 0, 248);
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    color: white;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all .5s ease;
+}
+
+.btn:hover {
+    letter-spacing: 3px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+}
+
+.btn:active {
+    letter-spacing: 3px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+}
+
+input[type='file'] {
+    display: none;
+}

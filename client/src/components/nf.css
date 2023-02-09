@@ -1,0 +1,15 @@
+.nf-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    flex-direction: column;
+}
+
+.nf-title h1 {
+    font-size: 50px;
+}
+
+.gback {
+    color: hsl(261deg 80% 48%);
+}
